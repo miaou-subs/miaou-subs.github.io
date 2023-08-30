@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins|Lato|Roboto+Mono&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Helvetica Neue", "Roboto Mono", "Poppins", sans-serif;
+    background: #F3E9DC;
+    color: #5E3023;
+  }
+  
+  #header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #DAB49D;
+  }
+  
+  #header-wrap h1 {
+    font-size: 24px;
+    color: black;
+  }
+  
+  #header-wrap nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  #header-wrap nav a {
+    display: block;
+    min-width: 120px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.5s;
+  }
+  
+  #header-wrap nav a:hover {
+    color: #5E3023;
+  }
+  
+  #main-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1; /* Le contenu principal prendra tout l'espace disponible */
+  }
+  
+  .edito-wrapper {
+    padding: 20px;
+    margin: 20px;
+    text-align: justify;
+    line-height: 1.5em;
+  }
+  
+  #footer-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20px; /* Utilisation de min-height pour éviter que le footer ne devienne trop petit */
+    background-color: #DAB49D;
+    color: #5E3023;
+  }
